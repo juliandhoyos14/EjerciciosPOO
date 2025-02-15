@@ -1,4 +1,4 @@
-package org.example.example14;
+package org.example.ejercicio14;
 
 public class Producto {
 
