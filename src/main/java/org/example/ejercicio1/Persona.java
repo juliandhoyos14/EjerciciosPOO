@@ -24,4 +24,8 @@ public class Persona {
     public String retornarDatos() {
       return "Nombre: " + nombre + " Edad: " + edad;
     }
+
+    public void mostrarInformacion() {
+      System.out.println(retornarDatos());
+    }
 }

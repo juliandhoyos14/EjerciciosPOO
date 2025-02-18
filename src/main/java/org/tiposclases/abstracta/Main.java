@@ -6,6 +6,5 @@ public class Main {
       Animal perro = new Perro();
       perro.hacerSonido();
       perro.dormir();
-
     }
 }
