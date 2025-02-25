@@ -22,6 +22,10 @@ public class CuentaBancaria {
     tasaInteres = nuevaTasa;
   }
 
+  /**
+   * Método estático para obtener la tasa de interés.
+   * @return la tasa de interés.
+   */
   public static double obtenerTasaInteres() {
     return tasaInteres;
   }
