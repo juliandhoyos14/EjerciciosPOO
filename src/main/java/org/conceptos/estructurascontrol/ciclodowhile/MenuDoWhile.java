@@ -1,5 +1,6 @@
 package org.conceptos.estructurascontrol.ciclodowhile;
 
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class MenuDoWhile {
@@ -18,7 +19,7 @@ public class MenuDoWhile {
 
       switch (opcion) {
         case 1 -> System.out.println("Elegiste Opción 1");
-        case 2 -> System.out.println("Elegiste Opción 2");
+        case 2 -> System.out.println(LocalDateTime.now());
         case 3 -> System.out.println("Saliendo...");
         default -> System.out.println("Opción no válida.");
       }

@@ -24,7 +24,7 @@ public class MenuSencillo {
           break;
         case 2:
           LocalDateTime fechaHora = LocalDateTime.now();
-          DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+          DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss");
           System.out.println("Fecha y hora actual: " + fechaHora.format(formato));
           break;
         case 3:
