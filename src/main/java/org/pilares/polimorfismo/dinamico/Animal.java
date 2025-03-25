@@ -1,8 +1,6 @@
 package org.pilares.polimorfismo.dinamico;
 
-public class Animal {
+public abstract class Animal {
 
-  public void hacerSonido() {
-    System.out.println("El animal hace un sonido");
-  }
+  public abstract void hacerSonido();
 }
