@@ -15,4 +15,11 @@ public class Inventario {
     total += detalleProducto.getCostoTotalProducto();
   }
 
+    public double getTotal() {
+      return total;
+    }
+
+    public List<DetalleProducto> getRegistros() {
+      return registros;
+    }
 }

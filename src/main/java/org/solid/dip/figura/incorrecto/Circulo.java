@@ -1,6 +1,6 @@
-package org.grasp.polymorphism;
+package org.solid.dip.figura.incorrecto;
 
-public class Circulo implements Figura {
+public class Circulo {
 
   private double radio;
 
@@ -8,8 +8,7 @@ public class Circulo implements Figura {
     this.radio = radio;
   }
 
-  @Override
-  public double calcularArea() {
+  public double getArea() {
     return Math.PI * Math.pow(radio, 2);
   }
 }

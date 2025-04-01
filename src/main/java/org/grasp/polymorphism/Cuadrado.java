@@ -10,6 +10,6 @@ public class Cuadrado implements Figura {
 
     @Override
     public double calcularArea() {
-        return lado * lado;
+        return Math.pow(this.lado, 2);
     }
 }
