@@ -1,6 +1,6 @@
 package org.solid.dip.figura.correcto;
 
-public abstract class Figura {
+public interface Figura {
 
-  public abstract double getArea();
+  double getArea();
 }

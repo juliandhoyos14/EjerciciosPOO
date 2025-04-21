@@ -20,20 +20,20 @@ public class Calculadora {
     return operadorSigno * resultado;
   }
 
-    public static double dividir(int a, int b) {
-      if (b == 0) {
-        throw new IllegalArgumentException("No se puede dividir por cero");
-      }
-      int operadorSigno = (a > 0 && b > 0) || (a < 0 && b < 0) ? 1 : -1;
-
-      int dividendo = Math.abs(a);
-      int divisor = Math.abs(b);
-      int resultado = 0;
-
-      while (dividendo >= divisor) {
-        dividendo -= divisor;
-        resultado++;
-      }
-      return (double) operadorSigno * resultado;
+  public static double dividir(int a, int b) {
+    if (b == 0) {
+      throw new IllegalArgumentException("No se puede dividir por cero");
     }
+    int operadorSigno = (a > 0 && b > 0) || (a < 0 && b < 0) ? 1 : -1;
+
+    int dividendo = Math.abs(a);
+    int divisor = Math.abs(b);
+    int resultado = 0;
+
+    while (dividendo >= divisor) {
+      dividendo -= divisor;
+      resultado++;
+    }
+    return (double) operadorSigno * resultado;
+  }
 }

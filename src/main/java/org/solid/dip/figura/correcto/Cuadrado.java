@@ -1,6 +1,6 @@
 package org.solid.dip.figura.correcto;
 
-public class Cuadrado extends Figura {
+public class Cuadrado implements Figura {
 
   private double lado;
 
