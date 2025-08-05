@@ -14,5 +14,7 @@ public class Main {
 
     Persona persona3 = new Persona("Maria", "Perez", 30);
     System.out.println(persona.equals(persona3));
+
+    System.out.println(persona);
   }
 }

@@ -17,9 +17,4 @@ public class Circulo implements Dibujable {
   public void borrar() {
       System.out.println("Borrar el círculo");
   }
-
-  /*@Override
-  public void mover() {
-      System.out.println("Mover el círculo");
-  }*/
 }

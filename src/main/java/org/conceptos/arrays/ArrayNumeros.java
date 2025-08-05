@@ -9,5 +9,10 @@ public class ArrayNumeros {
     for (int i = 0; i < edades.length; i++) {
       System.out.println("Edad " + (i + 1) + ": " + edades[i]);
     }
+
+    System.out.println("Usando for-each:");
+    for (int edad : edades) {
+      System.out.println("Edad: " + edad);
+    }
   }
 }

@@ -1,6 +1,8 @@
 package org.sobrecarga.metodos;
 
-public class CalculadoraDeArea {
+public final class CalculadoraDeArea {
+
+  private CalculadoraDeArea() {}
 
   // Cuadrado
   public static int calcularArea(int lado) {

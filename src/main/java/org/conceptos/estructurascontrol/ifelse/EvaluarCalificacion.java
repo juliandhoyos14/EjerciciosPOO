@@ -11,24 +11,20 @@ public class EvaluarCalificacion {
     // Validar que el valor ingresado sea numérico
     if (scanner.hasNextDouble()) {
       double calificacion = scanner.nextDouble();
-
-      if (calificacion >= 0 && calificacion <= 5) {
-        if (calificacion >= 4.5 && calificacion <= 5.0) {
-          System.out.println("Excelente");
-        } else if (calificacion >= 4.0 && calificacion < 4.5) {
-          System.out.println("Bueno");
-        } else if (calificacion >= 3.0 && calificacion < 4.0) {
-          System.out.println("Aprobado");
-        } else {
-          System.out.println("Reprobado");
-        }
+      if (calificacion >= 4.5 && calificacion <= 5.0) {
+        System.out.println("Excelente");
+      } else if (calificacion >= 4.0 && calificacion < 4.5) {
+        System.out.println("Bueno");
+      } else if (calificacion >= 3.0 && calificacion < 4.0) {
+        System.out.println("Aprobado");
+      } else if (calificacion >= 0.0 && calificacion < 3.0) {
+        System.out.println("Reprobado");
       } else {
         System.out.println("Valor ingresado no válido.");
       }
     } else {
-      System.out.println("Valor ingresado no válido.");
+      System.out.println("Valor ingresado no es un número válido.");
     }
-
     scanner.close();
   }
 }

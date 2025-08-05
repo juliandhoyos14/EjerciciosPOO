@@ -7,15 +7,11 @@ public class Persona {
   private int edad;
 
   public Persona() {
-    this.nombre = "";
-    this.apellido = "";
-    this.edad = 0;
+    this("", "", 0);
   }
 
   public Persona(String nombre, String apellido) {
-    this.nombre = nombre;
-    this.apellido = apellido;
-    this.edad = 0;
+    this(nombre, apellido, 0);
   }
 
   public Persona(String nombre, String apellido, int edad) {

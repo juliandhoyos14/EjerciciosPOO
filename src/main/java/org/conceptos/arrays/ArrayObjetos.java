@@ -11,6 +11,8 @@ public class ArrayObjetos {
     personas[1] = new Persona("Ana", 24);
     personas[2] = new Persona("Luis", 35);
 
+    System.out.println(personas[0]);
+
     System.out.println("Información de Personas:");
     for (Persona p : personas) {
       p.mostrarInformacion();

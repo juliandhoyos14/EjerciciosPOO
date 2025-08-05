@@ -16,6 +16,9 @@ public class Main {
       Persona persona1 = new Persona(nombre, edad);
       Persona persona2 = new Persona("Juan", 20);
 
+      System.out.println(persona1 == persona2); // Comparación de referencias
+      System.out.println(persona1.equals(persona2)); // Comparación de valores
+
       System.out.println(persona1.retornarDatos());
       System.out.println(persona2.retornarDatos());
     }

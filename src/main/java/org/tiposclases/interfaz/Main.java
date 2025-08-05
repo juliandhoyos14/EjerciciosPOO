@@ -4,7 +4,7 @@ public class Main {
 
   public static void main(String[] args) {
     // Crear un objeto de la clase Circulo
-    Circulo circulo = new Circulo(5.0);
+    Dibujable circulo = new Circulo(5.0);
 
     // Llamar a los métodos de la interfaz Dibujable
     circulo.dibujar();
